@@ -1,9 +1,10 @@
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
+
 body {
-	font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 img {
@@ -12,7 +13,7 @@ img {
 
 a {
     color: #31302F;
-    text-decoration:none
+    text-decoration: none
 }
 
 a:hover {
@@ -22,7 +23,7 @@ a:hover {
 menu {
     text-align: center;
     font-family: Noto+Sans+KR:wght@900;
-    background-color: #F8EEE1;  
+    background-color: #F8EEE1;
 }
 
 footer {
