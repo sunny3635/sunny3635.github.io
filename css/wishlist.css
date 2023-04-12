@@ -217,8 +217,7 @@ html {
     background-image: url("/img/bucket-colorpen2.png");
 }
 
-.bg-t6 h1,
-p {
+.bg-t6 h1, p {
     color: white;
 }
 
