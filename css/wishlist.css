@@ -164,8 +164,6 @@ html {
     background-size: cover;
     background-position: center;
     width: 360px;
-    background-size: cover;
-    background-position: center;
 }
 
 .img1-t5 {
@@ -193,8 +191,12 @@ html {
 }
 
 .bg-t6 {
+    width: 360px;
     background-image: url("/img/bg-note.png");
-    color: black;
+    background-size: 360px;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
 }
 
 .title-t6 {
@@ -203,40 +205,58 @@ html {
 
 .img1-t6 {
     background-image: url("/img/bucket-highlight.png");
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .img2-t6 {
     background-image: url("/img/bucket-throughline.png");
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .img3-t6 {
     background-image: url("/img/bucket-colorpen1.png");
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .img4-t6 {
     background-image: url("/img/bucket-colorpen2.png");
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-t6 h1, p {
     color: white;
 }
 
+.bg-t6 p {
+    color: white;
+}
+
 .bg-t6 div {
     flex-wrap: nowrap;
     flex-direction: column;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .bg-t6 div div {
     width: 400px;
+    height: 120px;
 
 }
 
 .bg-t7 {
-    max-width: 360px;
+    max-width: 400px;
     background-image: url("/img/bg-red.png");
-    background-size: cover;
+    background-size: 400px;
     background-position: center;
+    background-repeat: no-repeat;
 
     color: #f85151;
 }
@@ -246,11 +266,13 @@ html {
     margin-top: 80px;
     background-color: white;
     box-shadow: 1px 1px 0 tomato;
+    border: 1px solid tomato;
     border-radius: 8px;
+    padding: 10px;
 }
 
 .img1-t7 {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #f85151;
     border-radius: 8px;
 }
